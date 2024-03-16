@@ -1,0 +1,10 @@
+/* css module */
+
+/* Tailwind 및 CSS 모듈은 Next.js 애플리케이션 스타일을 지정하는 가장 일반적인 두 가지 방법입니다. */
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}

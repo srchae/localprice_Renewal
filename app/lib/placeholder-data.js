@@ -1,5 +1,10 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 // https://nextjs.org/learn/dashboard-app/fetching-data
+
+// 사용자 인터페이스를 구축할 때 placeholder data가 있으면 도움이 됩니다.
+// 데이터베이스나 API를 아직 사용할 수 없는 경우 다음을 수행할 수 있습니다.
+
+// 해당 파일의 각 JavaScript 객체는 데이터베이스의 테이블을 나타냅니다.
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',

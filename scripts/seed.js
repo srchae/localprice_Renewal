@@ -1,3 +1,4 @@
+// 데이터베이스 관련 seed script 포함
 const { db } = require('@vercel/postgres');
 const {
   invoices,

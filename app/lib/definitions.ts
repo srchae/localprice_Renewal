@@ -2,6 +2,13 @@
 // It describes the shape of the data, and what data type each property should accept.
 // For simplicity of teaching, we're manually defining these types.
 // However, these types are generated automatically if you're using an ORM such as Prisma.
+
+// TypeScript 개발자인 경우:
+// 데이터 유형을 수동으로 선언하고 있지만 더 나은 유형 안전성을 위해 Prisma를 권장합니다., 데이터베이스 스키마를 기반으로 유형을 자동으로 생성합니다.
+//   Next.js는 프로젝트에서 TypeScript를 사용하는지 감지하고 필요한 패키지와 구성을 자동으로 설치합니다.Next.js에는 TypeScript 플러그인 도 함께 제공됩니다.코드 편집기의 경우 자동 완성 및 유형 안전성을 지원합니다.
+
+// 여기서는 데이터베이스에서 선언된 객체(테이블)들의 반환될 type을 수동으로 정의합니다.
+// 데이터베이스에서의 객체 타입을 지정해주는 곳
 export type User = {
   id: string;
   name: string;
