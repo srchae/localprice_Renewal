@@ -1,4 +1,5 @@
 // 데이터베이스 관련 seed script 포함
+// 시딩은 애플리케이션을 구축할 때 작업할 데이터를 갖고 싶을 때 유용합니다.
 const { db } = require('@vercel/postgres');
 const {
   invoices,
