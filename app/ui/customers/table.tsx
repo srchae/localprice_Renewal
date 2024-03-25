@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { mako } from '@/app/ui/fonts';
-import Search from '@/app/ui/search';
+import Search from '@/app/components/searchbar';
 import {
   CustomersTableType,
   FormattedCustomersTable,
