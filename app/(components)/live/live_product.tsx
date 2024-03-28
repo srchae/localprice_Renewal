@@ -1,9 +1,9 @@
 import Heart from '@/public/icons/heart';
 
-export default function LiveItem() {
+export default function LiveProduct() {
   return (
     <article>
-      <div className="flex h-[120px] w-[120px] justify-end rounded-2xl bg-#D9D9D9 py-4 pr-4">
+      <div className="flex h-[188px] w-[177px] justify-end rounded-2xl bg-#D9D9D9 py-4 pr-4">
         <Heart />
       </div>
       <article>

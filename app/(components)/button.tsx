@@ -32,3 +32,17 @@ export function ColorButton({ children, className, ...rest }: ButtonProps) {
     </button>
   );
 }
+
+export function GradientButton({ children, className, ...rest }: ButtonProps) {
+  return (
+    <button
+      {...rest}
+      className={clsx(
+        'flex h-[45px] w-[110px] items-center justify-center rounded-full bg-gradient-to-r from-#5A28EC  to-#331786 px-4 text-sm font-medium text-white',
+        className,
+      )}
+    >
+      {children}
+    </button>
+  );
+}

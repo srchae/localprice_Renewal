@@ -5,13 +5,16 @@ import Bag from '@/public/icons/bag';
 import Heart from '@/public/icons/heart';
 import Favorites from '@/public/icons/favorite';
 import Profile from '@/public/icons/profile';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <>
-      <div className="flex h-[45px] w-[128px] items-center justify-center">
-        <Logo />
-      </div>
+      <Link href={'/'}>
+        <div className="flex h-[45px] w-[128px] items-center justify-center">
+          <Logo />
+        </div>
+      </Link>
       <Search placeholder="검색어를 입력해 주세요." />
       <div className="flex w-full justify-between ">
         <div className="flex h-[24px] w-[175px] ">
@@ -29,7 +32,10 @@ export default function Header() {
           </div>
         </div>
         <div className="flex justify-end gap-3">
-          <button>로그인 / 회원가입</button>
+          <button>
+            <Link href={'/login'}>로그인 / </Link>
+            <Link href={'/join'}>회원가입</Link>
+          </button>
           <button>고객센터</button>
         </div>
       </div>

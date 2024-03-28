@@ -24,9 +24,11 @@ export default function Navbar() {
           <button className="1px p-1 font-medium text-black">
             <p>인기상품</p>
           </button>
-          <button className="1px p-1 font-medium text-black">
-            <p>LIVE</p>
-          </button>
+          <Link href={'/live'}>
+            <button className="1px p-1 font-medium text-black">
+              <p>LIVE</p>
+            </button>
+          </Link>
           <button className="1px p-1 font-medium text-black">
             <p>1depth 카테고리</p>
           </button>

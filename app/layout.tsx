@@ -11,16 +11,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <main className="mx-auto flex w-[1024px] flex-col">
+      <head>
+        <title>Renewal LocalPrice</title>
+      </head>
+      <div className="mx-auto flex w-[1024px] flex-col">
         <header className="flex h-[82px] items-center gap-5">
           <Header />
         </header>
         <nav className="flex items-center gap-10 p-4">
           <Navbar />
         </nav>
-        <div>{children}</div>
-        <Footer />
-      </main>
+      </div>
+      <div>{children}</div>
+      <Footer />
     </html>
   );
 }
