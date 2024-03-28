@@ -10,12 +10,12 @@ export default function Navbar() {
   return (
     <>
       {/* 아이콘 */}
-      <div className="bg-white">
+      <figure className="bg-white">
         <Burger />
-      </div>
+      </figure>
       {/* 버튼과 link */}
-      <div className="flex w-full justify-between">
-        <div className="flex gap-3">
+      <nav className="flex w-full justify-between">
+        <section className="flex gap-3">
           <button className="1px p-1 font-medium text-#5A28EC">
             <p>
               <u>상시 기획전</u>
@@ -33,14 +33,14 @@ export default function Navbar() {
           <button className="1px p-1 font-medium text-black">
             <p>2depth 카테고리</p>
           </button>
-        </div>
-        <div className="flex h-[30px] w-[165px] gap-2">
+        </section>
+        <section className="flex h-[30px] w-[165px] gap-2">
           <Bell />
           <Bag />
           <Favorites />
           <Profile />
-        </div>
-      </div>
+        </section>
+      </nav>
     </>
   );
 }
