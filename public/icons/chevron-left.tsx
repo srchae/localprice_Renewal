@@ -1,4 +1,8 @@
-export default function ChevronLeft() {
+export default function ChevronLeft(
+  width: string,
+  height: string,
+  color: string,
+) {
   return (
     <svg
       width="40"
